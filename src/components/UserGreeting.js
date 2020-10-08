@@ -3,7 +3,7 @@ import React from 'react'
 function UserGreeting() {
     return (
         <div>
-            <h2>
+            <h2 className="userGreeting" >
                 Thank you for completing this Quiz!
             </h2>
         </div>
