@@ -13,7 +13,7 @@ function Quizarea(props) {
         <div>
             <h2>Quiz Area</h2>
             <Question dataSet={props.dataSet} />
-            <AnswerList dataSet={props.dataSet} />
+            <AnswerList handleClick={props.handleClick} dataSet={props.dataSet} />
         </div>
     )
 }
