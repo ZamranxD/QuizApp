@@ -12,16 +12,17 @@ export class Questionnare extends Component {
             dataSet : dataSet,
             correct : 0,
             incorrect : 0,
-            isFinished : false
+            isFinished : false,
         }
     }
 
     render() {
         return (
             <div>
-                <QuizArea></QuizArea>
+                <QuizArea isFinished={this.state.isFinished} dataSet={this.state.dataSet[this.state.current]} ></QuizArea>
                 <ScoreArea></ScoreArea>
             </div>
+            
         )
     }
 }

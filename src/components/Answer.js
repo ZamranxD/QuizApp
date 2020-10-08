@@ -1,9 +1,11 @@
 import React from 'react'
 
-function Answer() {
+function Answer(props) {
     return (
         <div>
-            
+            <button type="button">
+                {props.answer}
+            </button>
         </div>
     )
 }

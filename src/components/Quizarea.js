@@ -3,13 +3,17 @@ import Question from "./Question"
 import AnswerList from "./AnswerList"
 import UserGreeting from "./UserGreeting"
 
-function Quizarea() {
+function Quizarea(props) {
+
+    if(props.isFinished) {
+        return <UserGreeting />
+    }
+
     return (
         <div>
             <h2>Quiz Area</h2>
-            <Question />
-            <AnswerList />
-            <UserGreeting />
+            <Question dataSet={props.dataSet} />
+            <AnswerList dataSet={props.dataSet} />
         </div>
     )
 }
