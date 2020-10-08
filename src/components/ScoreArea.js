@@ -2,14 +2,14 @@ import React from 'react'
 import TotalCorrent from "./TotalCorrent"
 import TotalIncorrect from "./TotalIncorrect"
 
-function ScoreArea() {
+function ScoreArea(props) {
     return (
         <div>
             <h2>
                 Score Area
             </h2>
-            <TotalCorrent></TotalCorrent>
-            <TotalIncorrect></TotalIncorrect>
+            <TotalCorrent correct={props.correct} ></TotalCorrent>
+            <TotalIncorrect incorrect={props.incorrect} ></TotalIncorrect>
         </div>
     )
 }

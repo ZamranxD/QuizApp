@@ -20,7 +20,7 @@ export class Questionnare extends Component {
         return (
             <div>
                 <QuizArea isFinished={this.state.isFinished} dataSet={this.state.dataSet[this.state.current]} ></QuizArea>
-                <ScoreArea></ScoreArea>
+                <ScoreArea correct={this.state.correct} incorrect={this.state.incorrect} ></ScoreArea>
             </div>
             
         )

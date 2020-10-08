@@ -1,9 +1,11 @@
 import React from 'react'
 
-function TotalIncorrect() {
+function TotalIncorrect(props) {
     return (
         <div>
-            
+            <h3>
+                Incorrect : {props.incorrect}
+            </h3>
         </div>
     )
 }
