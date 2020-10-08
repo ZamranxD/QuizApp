@@ -37,7 +37,11 @@ export class Questionnare extends Component {
     render() {
         return (
             <div>
-                <QuizArea handleClick={this.handleClick} isFinished={this.state.isFinished} dataSet={this.state.dataSet[this.state.current]} ></QuizArea>
+                <QuizArea correct={this.state.correct}
+                          handleClick={this.handleClick}
+                          isFinished={this.state.isFinished}
+                          dataSet={this.state.dataSet[this.state.current]} >
+                </QuizArea>
                 <ScoreArea correct={this.state.correct} incorrect={this.state.incorrect} ></ScoreArea>
             </div>
             

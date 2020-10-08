@@ -48,3 +48,13 @@ h2.userGreeting {
   font-size: 18px;
   color: blue;
 }
+
+h3.failed {
+  font-size: 18px;
+  color: red;
+}
+
+h3.passed {
+  font-size: 18px;
+  color: green;
+}
