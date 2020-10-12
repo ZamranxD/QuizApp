@@ -1,4 +1,4 @@
-[![Run on Repl.it](https://repl.it/badge/github/ZamranxD/QuizApp)](https://repl.it/github/ZamranxD/QuizApp)
+[![Run on Repl.it!](https://repl.it/badge/github/ZamranxD/QuizApp)](https://repl.it/github/ZamranxD/QuizApp)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
